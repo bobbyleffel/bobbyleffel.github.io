@@ -1,0 +1,194 @@
+  @font-face {
+  font-family: 'MainFont';
+  src:
+  	url('Neou-Thin.otf')
+  	format('opentype');
+  src:
+  	url('Neou-Thin.ttf')
+  	format('truetype');
+}
+html{
+    font-family: "MainFont";
+    background-color:#191919;
+    overflow: scroll;
+    overflow-x: hidden;
+    }::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+  }
+body{
+  margin: 0px;
+}
+/*Title*/
+nav{
+  background-color: #191919;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  padding-top: 8px;
+}
+a{
+  text-decoration: none;
+  font-size: 185%;
+  color:#FFF;
+  padding-left: 1.4em;
+}
+a:hover{
+  color: green;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  border-bottom: solid 4px;
+}
+header{
+  height: 100%;
+  bottom: 1080px;
+  background-color: #191919;
+  background-image:url("images/LOL_PROMOART_5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header h1 p{
+  text-align: center;
+  font-size: 400%;
+  font-weight:bold;
+  color: #FFF;
+}
+h1 p{
+  padding-top: 39%;
+}
+/*Lore*/
+section{
+  height: 96.5%;
+  padding-top: 3.5%;
+  background-color: #111;
+  color: #FFF;
+  border-bottom: 2px solid green;
+}
+.lore-1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 190%;
+  color: green;
+  border-bottom: 5px solid;
+}
+.lore-2{
+  text-align: left;
+  font-weight: light;
+  font-size: 109%;
+  color: white;
+}
+/*Skins*/
+.image-content{
+  float: left;
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 7%;
+  margin-bottom: 0px;
+}
+.image-content img{
+  float: left;
+  display:block;
+	height:auto;
+	width:33.3%;
+}
+.skin-text{
+  font-size: 2.1em;
+  text-align: left;
+}
+/*Build1*/
+.build-1 img{
+  display: block;
+  float: left;
+  border: 2px solid green;
+  width: 15%;
+  margin-left: 25px;
+}
+.build-2 img{
+  display: block;
+  float: left;
+  border: 2px solid green;
+  width: 15%;
+  margin-left: 25px;
+  margin-top: 0%;
+}
+.Build-Text{
+  text-align: center;
+  margin-top: 18%;
+  font-size: 3em;
+  width: 95%;
+}
+/*Mast*/
+.mast1 img{
+  display: block;
+  border: 3px solid green;
+  margin: 1%;
+  width: 9.5%;
+  border-radius: 50%;
+}
+.mast2{
+  float: right;
+  margin-top: -43%;
+  width: 6%;
+  margin-right: 76%;
+}
+.mast2 img{
+  display: block;
+  width: 100%;
+  clear: both;
+  border: 2px solid green;
+  border-radius: 50%;
+  margin-bottom: 15%;
+}
+.masteries-text{
+  text-align: center;
+  float: right;
+  display: block;
+  font-size: 7.3em;
+  margin-top: -40%;
+  margin-right: 5%;
+  width: 65%;
+}
+.mast-num{
+  font-size: 6em;
+  margin-left: 3%;
+  margin-top: -1%;
+}
+#runes img{
+  display: block;
+  float: left;
+}
+#runes{
+  padding-top: 12%;
+  padding-left: 10%;
+}
+.runes1{
+    margin-top: -.8%;
+}
+.rune1{
+  font-size: 3em;
+  margin-right: 50%;
+  margin-left: 0%;
+}
+.rune2{
+  font-size: 3em;
+  margin-right: 20%;
+  margin-left: 0%;
+}
+.rune3{
+  font-size: 3em;
+  margin-right: 20%;
+  margin-left: 0%;
+}
+.rune4{
+  font-size: 3em;
+  margin-right: 20%;
+  margin-left: 0%;
+}
+#lane p{
+  text-align: center;
+  font-size: 1.8em;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+}
