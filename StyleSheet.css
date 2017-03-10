@@ -43,7 +43,7 @@ header{
   height: 100%;
   bottom: 1080px;
   background-color: #191919;
-  background-image:url("LOL_PROMOART_5.jpg");
+  background-image:url("images/LOL_PROMOART_5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -96,25 +96,25 @@ section{
   font-size: 2.1em;
   text-align: left;
 }
-/*Build1*/
+/*Build*/
 .build-1 img{
   display: block;
   float: left;
   border: 2px solid green;
-  width: 15%;
-  margin-left: 25px;
+  width: 13%;
+  margin-left: 3%;
 }
 .build-2 img{
   display: block;
   float: left;
   border: 2px solid green;
-  width: 15%;
-  margin-left: 25px;
-  margin-top: 0%;
+  width: 13%;
+  margin-left: 3%;
+  margin-top: -0%;
 }
 .Build-Text{
   text-align: center;
-  margin-top: 18%;
+  margin-top: 14%;
   font-size: 3em;
   width: 95%;
 }
@@ -123,13 +123,13 @@ section{
   display: block;
   border: 3px solid green;
   margin: 1%;
-  width: 9.5%;
+  width: 8.5%;
   border-radius: 50%;
 }
 .mast2{
   float: right;
-  margin-top: -43%;
-  width: 6%;
+  margin-top: -38%;
+  width: 5%;
   margin-right: 76%;
 }
 .mast2 img{
@@ -144,15 +144,20 @@ section{
   text-align: center;
   float: right;
   display: block;
-  font-size: 7.3em;
+  font-size: 5.9em;
   margin-top: -40%;
   margin-right: 5%;
   width: 65%;
 }
-.mast-num{
-  font-size: 6em;
+.mast-num1{
+  font-size: 3em;
   margin-left: 3%;
   margin-top: -1%;
+}
+.mast-num2{
+  font-size: 3em;
+  margin-left: 19%;
+  margin-top: -6.8%;
 }
 #runes img{
   display: block;
@@ -182,12 +187,11 @@ section{
 }
 .rune4{
   font-size: 3em;
-  margin-right: 20%;
   margin-left: 0%;
 }
 #lane p{
   text-align: center;
-  font-size: 1.8em;
+  font-size: 1.4em;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 3%;
