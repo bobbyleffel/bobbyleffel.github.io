@@ -26,6 +26,7 @@ nav{
   top: 0px;
   left: 0px;
   padding-top: 8px;
+  z-index: 1;
 }
 a{
   text-decoration: none;
@@ -195,4 +196,26 @@ section{
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 3%;
+}
+#video{
+  text-align: center;
+  border-bottom: 0px;
+}
+#video video{
+  z-index: -1;
+  margin-bottom: 5%;
+  border: 2px solid green;
+}
+#cites{
+  font-size: 3em;
+  height: auto;
+  border: 0px solid green;
+}
+#cites p{
+  text-align: center;
+  font-size: 3.5em;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: underline;
+  color: green;
 }
